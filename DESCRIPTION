@@ -1,15 +1,12 @@
 Type: Compendium
-Package: Compendium title
-Title: What the Package Does (One Line, Title Case)
+Package: Holepunch Test
+Title: Test Using Holepunch to Prepare a Binder Environment
 Version: 0.0.1
 Authors@R: 
-    person(given = "Karthik",
-           family = "Ram",
-           role = c("aut", "cre"),
-           email = "karthik.ram@gmail.com",
-           comment = c(ORCID = "0000-0002-0233-1757"))
-Description: Compendium description
-License: MIT + file LICENSE
+    person("Humberto", "Ortiz-Zuazaga", , "humberto.ortiz@upr.edu", role = c("aut", "cre"))
+Description: A test of the holepunch package for preparing binder
+    environments
+License: Artistic License
 Depends: 
     dataRetrieval,
     dplyr,

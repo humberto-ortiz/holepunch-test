@@ -35,12 +35,12 @@ To test `holepunch`, follow these steps:
 
 ```r
 library(holepunch)
-write_compendium_description(package = "Your compendium name", 
-                             description = "Your compendium description")
+write_compendium_description(package = "Holepunch Test", 
+                             description = "A test of the holepunch package for preparing binder environments")
 # to write a description, with dependencies listed 
 # It's good practice to now go fill in the placeholder text.
 
-write_dockerfile(maintainer = "your_name") 
+write_dockerfile(maintainer = "Humberto Ortiz-Zuazaga") 
 # To write a dockerfile. It will automatically pick the date of the last modified file, match it to 
 # that version of R and add it here. You can override this by passing r_date to some arbitrary date
 # (but one for which a R version exists).
